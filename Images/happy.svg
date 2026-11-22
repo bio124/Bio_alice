@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Lächelndes Herz mit Funkeln, Symbol für Freude schenken">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe3f1"/>
+      <stop offset="1" stop-color="#eadcff"/>
+    </linearGradient>
+    <linearGradient id="heart" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#ff8cc0"/>
+      <stop offset="1" stop-color="#ff5c9d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <path id="sh" d="M0,10 C-14,0 -14,-12 -6,-12 C-2,-12 0,-8 0,-6 C0,-8 2,-12 6,-12 C14,-12 14,0 0,10 Z"/>
+    <path id="sp" d="M0,-1 Q0,0 1,0 Q0,0 0,1 Q0,0 -1,0 Q0,0 0,-1 Z"/>
+  </defs>
+
+  <!-- Hintergrund -->
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <circle cx="200" cy="215" r="175" fill="url(#glow)"/>
+
+  <!-- Funkeln -->
+  <g fill="#ffffff">
+    <path d="M70,90 Q70,90 88,90 Q70,90 70,108 Q70,90 52,90 Q70,90 70,72 Z"/>
+    <path d="M335,75 Q335,75 357,75 Q335,75 335,97 Q335,75 313,75 Q335,75 335,53 Z"/>
+    <path d="M345,300 Q345,300 361,300 Q345,300 345,316 Q345,300 329,300 Q345,300 345,284 Z"/>
+    <path d="M62,325 Q62,325 82,325 Q62,325 62,345 Q62,325 42,325 Q62,325 62,305 Z"/>
+  </g>
+  <g fill="#ffe08a">
+    <path d="M318,170 Q318,170 330,170 Q318,170 318,182 Q318,170 306,170 Q318,170 318,158 Z"/>
+    <path d="M110,48 Q110,48 122,48 Q110,48 110,60 Q110,48 98,48 Q110,48 110,36 Z"/>
+  </g>
+
+  <!-- kleine Herzen -->
+  <use href="#sh" transform="translate(92,175) scale(1.3)" fill="#c77dff"/>
+  <use href="#sh" transform="translate(312,118) scale(1.5)" fill="#ff9ec8"/>
+  <use href="#sh" transform="translate(84,262) scale(1)" fill="#ffffff"/>
+  <use href="#sh" transform="translate(328,246) scale(1.2)" fill="#ff6fae"/>
+  <use href="#sh" transform="translate(240,60) scale(1)" fill="#ffffff"/>
+
+  <!-- Konfetti-Punkte -->
+  <g>
+    <circle cx="150" cy="70" r="5" fill="#ff9ec8"/>
+    <circle cx="275" cy="42" r="4" fill="#c77dff"/>
+    <circle cx="48" cy="205" r="5" fill="#ffe08a"/>
+    <circle cx="355" cy="205" r="5" fill="#ffffff"/>
+    <circle cx="120" cy="368" r="4" fill="#ff9ec8"/>
+    <circle cx="290" cy="360" r="5" fill="#c77dff"/>
+  </g>
+
+  <!-- Herz -->
+  <path d="M200,322 C88,242 88,142 150,132 C180,127 200,152 200,167 C200,152 220,127 250,132 C312,142 312,242 200,322 Z"
+        fill="#ff3d8b" opacity="0.18" transform="translate(0,8)"/>
+  <path d="M200,322 C88,242 88,142 150,132 C180,127 200,152 200,167 C200,152 220,127 250,132 C312,142 312,242 200,322 Z"
+        fill="url(#heart)" stroke="#ffffff" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- Glanzlicht -->
+  <ellipse cx="148" cy="165" rx="16" ry="9" fill="#ffffff" opacity="0.65" transform="rotate(-35 148 165)"/>
+
+  <!-- Gesicht -->
+  <g fill="none" stroke="#5a2a45" stroke-width="7" stroke-linecap="round">
+    <path d="M150,225 Q165,203 180,225"/>
+    <path d="M220,225 Q235,203 250,225"/>
+  </g>
+  <path d="M174,248 Q200,292 226,248 Q200,256 174,248 Z" fill="#5a2a45" stroke="#5a2a45" stroke-width="4" stroke-linejoin="round"/>
+  <ellipse cx="200" cy="268" rx="10" ry="5" fill="#ff8cc0"/>
+  <ellipse cx="146" cy="248" rx="13" ry="8" fill="#ff9ec8" opacity="0.85"/>
+  <ellipse cx="254" cy="248" rx="13" ry="8" fill="#ff9ec8" opacity="0.85"/>
+</svg>
