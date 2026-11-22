@@ -15,7 +15,7 @@
     name: '___',
 
     // Profilbild (optional, leer lassen für Initialen)
-    avatar: 'images/profilepicture.png',
+    avatar: 'Images/profilepicture.png',
 
     // Absätze der Beschreibung
     description: [
@@ -26,9 +26,9 @@
 
     // Bilder: Pfade relativ zur bio.js ODER komplette URLs
     images: [
-      { src: 'images/bild1.jpg', alt: 'Beschreibung Bild 1' },
-      { src: 'images/bild2.jpg', alt: 'Beschreibung Bild 2' },
-      { src: 'images/bild3.jpg', alt: 'Beschreibung Bild 3' }
+      { src: 'Images/bild1.jpg', alt: 'Beschreibung Bild 1' },
+      { src: 'Images/bild2.jpg', alt: 'Beschreibung Bild 2' },
+      { src: 'Images/bild3.jpg', alt: 'Beschreibung Bild 3' }
     ],
 
     // Chatregeln
@@ -43,8 +43,8 @@
      // Wishlist (zwei Punkte, je mit Bild). url ist optional: ohne url ist die Karte nicht klickbar.
     wishlistTitle: 'Wishlist',
     wishlist: [
-      { title: 'dream home', text: 'I want to move to my cozy dream home next to the sea.', image: 'images/home.png', url: '' },
-      { title: 'making you happy', text: 'I want you to have a wonderful time beeing in my Chatroom.', image: 'images/happy.svg', url: '' }
+      { title: 'dream home', text: 'I want to move to my cozy dream home next to the sea.', image: 'Images/home.png', url: '' },
+      { title: 'making you happy', text: 'I want you to have a wonderful time beeing in my Chatroom.', image: 'Images/happy.svg', url: '' }
     ],
 
     // Farben & Look
